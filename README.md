@@ -4,6 +4,8 @@
 ---
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdKmGR5%2FbtqJWSkmnbv%2FgVEyekKYADwxvHvxkhk460%2Fimg.png" height="250px" >
 
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcKq5hF%2FbtqJ1MDsM9T%2FrkjfafyK8AkKzd5iXDXdFK%2Fimg.png" height="250px" >
+
 ## Architecture
 - ESP32와 PC는 서버와 클라이언트의 관계로 연결된다.
 - ESP32 카메라 웹서버 예제를 베이스로 만들었다.
