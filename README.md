@@ -1,4 +1,36 @@
 # FacemaskDetection
+Face mask detection system(2020.08.02 - 2020.08.22)
+[link](https://ghchoi0427.tistory.com/44)
+---
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdKmGR5%2FbtqJWSkmnbv%2FgVEyekKYADwxvHvxkhk460%2Fimg.png" height="250px" >
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcKq5hF%2FbtqJ1MDsM9T%2FrkjfafyK8AkKzd5iXDXdFK%2Fimg.png" height="250px" >
+
+## Architecture
+- ESP32 and PC are connected as server-client.
+- based on ESP32 camera web server example.
+- starts server and manipulated on PC by http request
+- ESP32 communicates with Arduino by pin output.
+- Added arduino nano due to lack of GPIO from ESP32.
+
+## File description
+
+- camServer_MaskDetection0819_light
+  + `app_httpd.cpp` : esp32 server UI
+  + `camServer_MaskDetection0819_light.ino` : WIFI connection settings
+  + `camera_index.h`
+  + `camera_pins.h`
+- mask_Detection_alarm
+  + `mask_Detection_alarm.ino` : alarm upon detection result
+- `createModel.py` : create model based on learn data.
+- `detect0811.py` : detects mask
+- `saved_model.h5` : created model file
+
+##  Tech stack
+`tensorflow`, `arduino`
+
+
+# FacemaskDetection
 마스크 착용 인식 시스템(2020.08.02 - 2020.08.22)
 [관련링크](https://ghchoi0427.tistory.com/44)
 ---
